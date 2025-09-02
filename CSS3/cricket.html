@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cricket height</title>
+    <style>
+        .field{
+            width: 100%;
+            height: 700px;
+            border: 2px red solid;
+        }
+        .field img{
+            height: 400px;
+            position: absolute;
+            top: 100px;
+            right: 20px;
+        
+        }
+        .bat{
+            transition: transform 0.3s;
+        }
+    
+      .field .bat {
+            transform: rotate(-30deg);
+            transform-origin: center 10%;
+            transition: transform 0.21s ease;
+      }
+
+       .field:hover .bat {
+            transform: rotate(90deg);
+        }
+
+        .field:hover .ball{
+            transform: translate(-2000px, -500px) 
+            
+        }
+        .ball{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background-color: red;
+            transition: transform 0.28s ease-out 0.001s;
+        }
+        .ball{
+            position: absolute;
+            top: 400px;
+            right: 235px;
+        
+        }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <div >
+       <img src="BAT21S4B_3.webp" alt="" class="bat">
+    </div>
+    <div class="ball">
+
+    </div>
+    </div>
+</body>
+</html>

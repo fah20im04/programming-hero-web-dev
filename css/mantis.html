@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mantis</title>
+  <style>
+    body {
+      background-color: #0b3d2e;
+      margin: 0;
+      overflow-x: hidden;
+      font-family: sans-serif;
+    }
+
+    h1 {
+      color: white;
+      text-align: center;
+    }
+
+    h1 span {
+      color: rgb(251, 238, 238);
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .box {
+      background-color: aqua;
+      height: 300px;
+      width: 200px;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .box:first-child {
+      background-color: brown;
+    }
+
+    .box p {
+      color: aliceblue;
+      padding: 20px;
+      position: absolute;
+      top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <h1>THIS IS THE <span>MANTIS WORLD</span></h1>
+  <div class="container">
+    <div class="box">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa sint
+        necessitatibus ipsum quis fuga! Corporis, enim? Odio odit officia alias
+        qui nostrum sapiente, amet cumque cum nemo sint architecto quis?
+      </p>
+    </div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+  </div>
+</body>
+</html>

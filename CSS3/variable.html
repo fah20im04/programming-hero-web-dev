@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variable</title>
+    <style>
+        :root{
+            --primary-color:rgb(12, 139, 33);
+            --secondary-color: rgb(70, 44, 182);
+            --3rd-color:rgb(206, 135, 194);
+            --p-color:red;
+        }
+        h1{
+            color: var(--primary-color);
+        }
+        h2{
+            color: var(--secondary-color);
+        }
+        h3{
+            color:var(--3rd-color);
+        }
+        p{
+            color: var(--p-color);
+        }
+    </style>
+</head>
+<body>
+    <h1>My custom property</h1>
+    <h2>Also commonly known as CSS bvariables</h2>
+    <div class="box">
+        <h3>i am doing something</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, odit! Ipsam odio asperiores, quo culpa necessitatibus deleniti blanditiis nostrum alias?</p>
+    </div>
+</body>
+</html>

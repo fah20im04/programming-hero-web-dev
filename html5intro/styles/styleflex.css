@@ -1,0 +1,49 @@
+.container div{
+    border: 2px solid tomato;
+    height: 20px;
+    width: 100px;
+}
+.container{
+    display: flex;
+}
+.container-box{
+    display: flex;
+    gap: 20px;
+}
+.box{
+    font-size: 1em;
+    height: 20px;
+    width: 100px;
+    border: 2px solid rgb(122, 62, 178);
+
+}
+.uses{
+    border: 2px solid rgb(2, 19, 26);
+    height: 100px;
+    background-color: aquamarine;
+    width: 150px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+.user-container{
+    display: flex;
+    justify-content: right;
+    justify-content: space-between; 
+    /* divide space equally */
+    
+}
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.containers{
+    background-color: burlywood;
+    width: 200px;
+}
+.boxes{
+    background-color: aquamarine;
+    font-size: 2em;
+    height: 200px;
+    width: 100px;
+}

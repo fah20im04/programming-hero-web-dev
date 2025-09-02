@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PITHA HOUSE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                
+                <!-- li*4>a -->
+                 <li><a href="/blogs.html">blogs</a></li>
+                 <li><a href="/video.html">video</a></li>
+                 <li><a href="flexbox.html">flexbox</a></li>
+                 <li><a href="table.html">table</a></li>
+                 <li><a href="auto.html">auto</a></li>
+                 
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form>
+           <fieldset class="basic-info">
+            <h2>AMAR PITHA GHOR</h2> 
+           
+            <br>
+            <label for="email">YOUR EMAIL</label>
+            <br>
+            <input type="email" name="EMAIL" id="email">
+            <br>
+            <label for="phone">Phone number</label>
+            <br>
+             <input type="number" name="phone" id="phone">
+           </fieldset>
+            <fieldset>
+                <legend>pitha info</legend>
+                <input type="radio" name="pitha" id="mera">
+                <label for="mera">mera</label>
+
+                <input type="radio" name="pitha" id="vapa">
+                <label for="vapa">VAPA</label>
+                <!-- if the names are same than it take only one input otherwise not -->
+
+                <input type="radio" name="pitha" id="dal puri">
+                <label for="dal puri">dal puri</label>
+            </fieldset>
+            <fieldset>
+                <legend>VORTA EXPRESS</legend>
+                <label for="sidol">SIDOL</label>
+                <input type="radio" name="sidol" id="sidol">
+                <label for="mas">mas</label>
+                <input type="radio" name="mas" id="mas">
+                <label for="beguni">beguni</label>
+                <input type="radio" name="beguni" id="beguni">
+            </fieldset>
+            <fieldset>
+                <legend>EXTRA INFO</legend>
+                <textarea cols="50" rows="4" name="hio" id="hio"></textarea>
+            </fieldset>
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+            <h4>when do you want to accept your item</h4>
+            <input type="date" name="when" id="now">
+            <br>
+            <label for="now"> delivery date</label>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>

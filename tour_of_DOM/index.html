@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tour of DOM</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        h1{
+            color: gold;
+        }
+        #food-title{
+            color: green;
+        }
+        .food .food-food{
+            font-weight: 700;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>this is my header no banner</h2>
+    </header>
+    <main id="main-container">
+        <section>
+            <h1>welcome to my DOM</h1>
+        <ul id="old-dhaka"
+        class="songs">
+            <li>shafayet</li>
+            <li>banobash</li>
+            <li id="band">jalaliset</li>
+            <li>dom de re baba</li>
+        </ul>
+        </section>
+        <section class="food">
+            <h1 id="food-title">food i love</h1>
+            <ul class="food-food">
+                <li>rice</li>
+                <li>pizza</li>
+                <li>burger</li>
+                <li>potato</li>
+                <li class="fod">fish</li>
+                <li>pasta</li>
+                <li>noodles</li>
+            </ul>
+        </section>
+        <section id="players-container">
+            <h1>players</h1>
+            <ul id="player-list">
+                <li>messi</li>
+                <li>ronaldo</li>
+                <li>neymar</li>
+                <li>pele</li>
+            </ul>
+        </section>
+    </main>
+    <script>
+        // console.log('Hello from JavaScript')
+        // console.log('hello bole chole gelo')
+        // console.log('document object model')
+        const student ={
+            name : 'abdul bari',
+            id:121,
+            study: function(subject){
+                // console.log('studying subject : ',subject);
+            }
+        }
+
+        // document.getElementsByTagName
+        const liCollection = document.getElementsByTagName('li');
+        // console.log(liCollection);
+        for(const li of  liCollection){
+        //   console.log(li.innerText);
+        }
+
+        // all h1 tags
+        const allheadings = document.getElementsByTagName('h1');
+        for(const h of allheadings ){
+            // console.log(h.innerText);
+        }
+        // get by id
+        const foodTitleh1 = document.getElementById('food-title');
+        //console.log(foodTitleh1);
+        const bandElement= document.getElementById('band');
+        bandElement.innerText='jalali is sleeeping band';
+        const elements = document.querySelectorAll('#old-dhaka li');
+       // console.log(elements);
+        const elem = document.getElementById('players-container');
+        //console.log(elem);
+    </script>
+    <script src="js/hello.js"></script>
+    <script src="js/cssinjs.js"></script>
+    <script src="js/append.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+// // type coersion
+// console.log(2 == 2)
+// console.log(2 == '2')
+// console.log(2 == 1)
+
+console.log(true == 1)
+console.log(true == '1')
+// console.log(false===0)
+console.log(null == undefined)
+// console.log(null==='')
+console.log([5] == '5')
+// console.log(0 === '')
+console.log(NaN == NaN)
+console.log({} == {})
+console.log([] == [])

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM-events</title>
+</head>
+<body>
+    <h1>dom doma dom events</h1>
+    <!-- option 1 for event handler -->
+    <button onclick="console.log(7)">click me</button>
+    <button onclick="console.log(35)">another</button>
+    <button onclick="console.log('i am clicked')">another</button>
+    <input type="text">
+    <br>
+    <!-- option 2 for event handler -->
+    <button onclick="makeYellow()">make yellow</button> 
+    <button onclick="makeblack()">make black</button> 
+    <button onclick="makeblue()">make blue</button> 
+    <button onclick="makegreen()">make green</button> 
+    <br>
+    <button id="btn-red">make red</button>
+    <button id="btn-make-purple">make purple</button>
+    <button id="btn-make-green">make green1</button>
+    <button id="btn-make-gold">make gold</button>
+    <script>
+        // document.getelEmentById().addEventListener(event type,handler)
+        // document.getElementById('btn-make=-green').addEventListener('click',function makegreen());
+
+        document.getElementById('btn-make-green').addEventListener('click',function makegreen(){
+            // console.log(77777);
+            document.body.style.backgroundColor ='green';
+        })
+        document.getElementById('btn-make-gold').addEventListener('click',function makegold(){
+            document.body.style.backgroundColor ='gold';
+        })
+    </script>
+    <script>
+         var btnMakePurple = document.getElementById('btn-make-purple');
+        //  console.log(btnMakePurple);
+        btnMakePurple.onclick = makePurple;
+        function makePurple(){
+            document.body.style.backgroundColor = 'purple';
+        }
+        // option 4:addeEventListener
+        
+    </script>
+    <!-- <script>
+        // option 3
+        const btnRed = document.getElementById('btn-red')
+        // console.log(btnRed);
+        btnRed.onclick = function makeRed(){
+            document.body.style.backgroundColor='red';
+        }
+    </script> -->
+    <script>
+        function makeYellow(){
+            document.body.style.backgroundColor = 'yellow';
+        }
+        function makeblack(){
+            document.body.style.backgroundColor = 'black';
+        }
+        function makeblue(){
+            document.body.style.backgroundColor = 'lightblue';
+        }
+        function makegreen(){
+            document.body.style.backgroundColor = 'lightgreen';
+        }
+    </script>
+    <script src="js/event.js"></script>
+</body>
+</html>

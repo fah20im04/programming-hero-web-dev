@@ -1,0 +1,46 @@
+body{
+    max-width: 1270px;
+    background-color: rgb(168, 137, 98);
+    align-items: center;
+    
+}
+.card{
+    border: 2px solid sandybrown;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    
+}
+.card img{
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px;
+}
+.btn{
+   margin: 10px;
+   position: absolute top: 300px;;
+
+}
+.card-container{
+    display: flex;
+    margin: 10px;
+    padding-left: 150px;
+    flex-wrap: wrap;
+    
+         
+}
+.btn:hover{
+    background-color: rgb(9, 170, 89);
+    border-radius: 5px;
+    font-style: initial;
+    text-decoration: dotted;
+}
+.card-section{
+    text-align: center;
+   justify-content: right;
+    justify-content: space-between; 
+}
+.card:hover{
+    background-color: aquamarine;
+    box-shadow: 20px black;
+}

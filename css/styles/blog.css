@@ -1,0 +1,23 @@
+h3{
+    font-size: 30px;
+    text-decoration: overline;
+    font-family: 'Courier New', Courier, monospace;
+}
+.second{
+    /* display: none; */
+    /* visibility: hidden; leaves full space behind*/
+}
+.blog{
+    box-shadow: 10px 10px;
+}
+.incident{
+    border: 2px solid purple;
+    margin: 10px;
+}
+.header{
+    height: 200px;
+        background-color: white;
+        background-image: url('dodge.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }

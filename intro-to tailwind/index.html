@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>intro to tailwind CSS</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <h1 class="underline text-2xl text-red-700">Intro to Tailwind</h1>
+    <h3>Exporing CSS via utility class</h3>
+    <section class="max-w-2xl border mx-auto">
+        <h3 class="border mx-5">my section title</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis laudantium non ducimus dolorum obcaecati vel maiores suscipit dolores eum rerum, modi explicabo doloremque quam itaque repudiandae at repellat voluptates ab.</p>
+    </section>
+    <!-- responsive section  -->
+
+     <section class=" bg-red-300 lg: bg-red-400 md:bg-yellow-500">
+        <h3>my responsive design</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed, voluptatibus quae quibusdam sapiente quasi iusto, cum doloremque voluptas minima harum iure cumque voluptate porro animi ut eos blanditiis hic itaque dolores? Velit autem, assumenda excepturi quisquam incidunt cum deleniti iusto in voluptatibus corrupti quos ipsa possimus fuga. Voluptatem, dolore quisquam!</p>
+     </section>
+     <!-- flex layout -->
+      <section class="lg:flex justify-center">
+        <div class="w-46 h-32 bg-purple-400 border border-r border-red-400">item 1</div>
+        <div class="w-46 h-32 bg-purple-400 border border-r border-red-400">item 2</div>
+        <div class="w-46 h-32 bg-purple-400 border border-r border-red-400">item 3</div>
+        <div class="w-46 h-32 bg-purple-400 border border-r border-red-400">item 4</div>
+        <div class="w-46 h-32 bg-purple-400 border border-r border-red-400">item 5</div>
+      </section>
+      <!-- grid section -->
+       <section class="grid grid-cols-3 gap-4">
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+        <div class="bg-pink-300 text-4xl">
+            <h3>item-n</h3>
+        </div>
+       </section>
+       <section>
+        <h3 class="text-4xl bg-amber-300 w-96 m-48" >some texts</h3>
+       </section>
+</body>
+</html>

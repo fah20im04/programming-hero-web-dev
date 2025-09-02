@@ -1,0 +1,8 @@
+console.log(2===2)
+console.log(2===1)
+console.log(true===1)
+console.log(false===0)
+console.log(null===undefined)
+console.log(null==='')
+console.log([] === '')
+console.log(0 === '')

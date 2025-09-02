@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mixed selectors</title>
+    <style>
+        p{
+            color: red;
+            font: bolder;
+            background-color: aqua;
+        }
+        #fifth{
+            color: rgb(11, 11, 11);
+            font-size: 26px;
+        }
+        .mine{
+            background-color: rgb(138, 18, 18);
+        }
+        .bold{
+            font-weight: 900;
+        }
+        .holud,.bold{
+            text-align: center;
+            background-color: rgb(207, 188, 188);
+            border-radius: inherit;
+        }
+        *{
+            /* margin:0 ;
+            padding: inherit; */
+            
+        }
+        input[type="password"]{
+                color: red;
+        }
+        .ssc{
+            color: purple;
+        }
+        .blog{
+            color: rgb(237, 239, 239);
+            background-color: black;
+        }
+        h4{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore mixed selectors</h3>
+    <p class="mine">My first <span class="ssc">mixed line</span> selectors</p>
+    <p>My seconf mixed line selectors</p>
+    <p id="fifth">My third mixed line selectors</p>
+    <p class="mine bold holud">My fourth mixed line selectors</p>
+    <p>My fifth mixed line selectors</p>
+    <ol>
+        <li class="holud">element selector</li>
+        <li class="mine">id selector</li>
+        <li class="bold">class selector</li>
+        <li id="fifth">universal</li>
+    </ol>
+    <form action="">
+        <input type="text">
+        <input type="password">
+    </form>
+    <div class="blog">
+        <h4 style="color: red;" >first blog</h4>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni est laboriosam libero? Aliquam nobis delectus quibusdam totam. Dolor est, officia sequi perferendis fugiat accusamus officiis maiores voluptatum vero, numquam mollitia.
+    </div>
+    
+    
+</body>
+</html>

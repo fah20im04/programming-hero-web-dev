@@ -1,0 +1,23 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin: 50px; 
+    text-decoration: none;
+}
+nav li a{
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: rgb(24, 228, 228);
+    border-radius: 5px;
+    zoom: 20px;
+    border-color: rgb(209, 8, 8);
+
+}
+footer{
+    text-align: center;
+}
+form .basic-info label{
+    display: block;
+    margin-top: 15px;
+}
