@@ -15,3 +15,8 @@ if(data){
         console.log(data,'is falsy')
 
 }
+
+// if i need to capture the falsy value  to go inside if block ---> use logical not !data
+if(!data){
+
+}
